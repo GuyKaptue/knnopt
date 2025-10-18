@@ -1,0 +1,18 @@
+# Documentation and License
+include README.md
+include LICENSE
+
+# Examples and Notebooks
+recursive-include examples *.ipynb
+
+# Tests
+recursive-include tests *.py
+
+# Configuration and Metadata
+include setup.cfg
+include pyproject.toml
+include requirements.txt
+include MANIFEST.in
+
+# Package Source Files
+recursive-include knnopt *.py
