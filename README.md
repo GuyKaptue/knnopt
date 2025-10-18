@@ -3,6 +3,9 @@
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Python](https://img.shields.io/badge/python-3.8%2B-blue.svg)
+![Tests](https://github.com/GuyKaptue/knnopt/actions/workflows/test.yml/badge.svg)
+![Coverage](https://img.shields.io/badge/coverage-100%25-brightgreen.svg)
+
 
 **knnopt** is a professional-grade Python toolkit designed to automate the selection of the optimal number of neighbors (K) in K-Nearest Neighbors (KNN) classification. It combines robust optimization strategies with intuitive visualizations to help users interpret model behavior across different scalers and configurations.
 
@@ -73,6 +76,7 @@ After identifying the optimal K, you can visualize the decision boundaries using
 optimizer.plot_clusters(k=optimal_k, title=f"KNN Clusters at K={optimal_k} (PCA-Reduced)")
 ```
 The following PCA-reduced plot shows how KNN decision boundaries form across three clusters:
+
 **No Scaler**
 ![No Scaler](examples/figures/Figure_4_none.png)
 
