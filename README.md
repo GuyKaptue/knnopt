@@ -73,10 +73,18 @@ After identifying the optimal K, you can visualize the decision boundaries using
 optimizer.plot_clusters(k=optimal_k, title=f"KNN Clusters at K={optimal_k} (PCA-Reduced)")
 ```
 The following PCA-reduced plot shows how KNN decision boundaries form across three clusters:
-![KNN Clusters Visualization](examples/figures/Figure_4_none.png)
-![KNN Clusters Visualization](examples/figures/Figure_4_standard.png)
-![KNN Clusters Visualization](examples/figures/Figure_4_minmax.png)
-![KNN Clusters Visualization](examples/figures/Figure_4_robust.png)
+**No Scaler**
+![No Scaler](examples/figures/Figure_4_none.png)
+
+**StandardScaler**
+![StandardScaler](examples/figures/Figure_4_standard.png)
+
+**MinMaxScaler**
+![MinMaxScaler](examples/figures/Figure_4_minmax.png)
+
+**RobustScaler**
+![RobustScaler](examples/figures/Figure_4_robust.png)
+
 ---
 
 ##  Project Structure
